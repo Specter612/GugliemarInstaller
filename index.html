@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>インストーラーのダウンロード</title>
+    <title>Gugliemar</title>
+    <style>
+        body {
+            background-color: black; /* 背景色を黒に設定 */
+            color: white; /* 文字の色を白に設定 */
+            margin: 0; /* ページ全体の余白をなくす */
+        }
+
+        /* タイトル「Gugliemar」を中央配置 */
+        h1.rounded-text {
+            font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+            text-align: center; /* 中央揃え */
+            margin-top: 20px; /* 上部の余白 */
+            font-size: 60px; /* タイトルのフォントサイズを大きくする */
+        }
+
+        /* タイトル以外を右にずらす */
+        .content {
+            margin-left: 20px; /* 左からの余白を設定 */
+        }
+
+        /* ↓とGugliemarInstallerのスタイル */
+        .arrow-text {
+            font-size: 36px; /* ↓GugliemarInstaller のフォントサイズを設定 */
+            font-weight: bold; /* 太字に設定 */
+            margin: 10px 0; /* 上下の余白を調整 */
+        }
+
+        /* ダウンロードリンクのスタイル */
+        a.rounded-text {
+            color: skyblue; /* 水色に設定 */
+            text-decoration: none; /* 下線を削除 */
+            font-weight: bold; /* 太字に設定 */
+            font-size: 24px; /* フォントサイズを24pxに設定（大きくする） */
+        }
+
+        /* リンクのホバー時のスタイル */
+        a.rounded-text:hover {
+            text-decoration: underline; /* ホバー時に下線を表示 */
+        }
+
+        /* 画像のスタイル */
+        .image {
+            float: right; /* 画像を右に寄せる */
+            margin-left: 10px; /* 画像と文字の間に隙間を作る */
+            margin-top: 10px; /* 画像の上部に少し余白を加える */
+            margin-right: 450px; /* 画像の右側の余白を調整 */
+            max-width: 30%; /* 画像の幅を調整（必要に応じて変更） */
+            height: auto; /* 高さは自動調整 */
+        }
+    </style>
 </head>
 <body>
-    <h1>インストーラーのダウンロード</h1>
-    <p>以下のリンクをクリックしてGugliemarInstallerをダウンロードしてください。</p>
-    <a href="GugliemarAppInstaller.zip">GugliemarInstallerをダウンロード</a>
+    <h1 class="rounded-text">Gugliemar</h1>
+    
+    <!-- PNG画像の挿入 -->
+    <img src="C:\Users\user\Pictures\Screenshots\スクリーンショット 2024-12-14 075627.png" alt="Gugliemar Logo" class="image">
+    
+    <div class="content">
+        <p class="arrow-text">↓ GugliemarInstaller</p>
+        <a href="GugliemarAppInstaller.zip" class="rounded-text">GugliemarInstallerをダウンロード</a>
+    </div>
 </body>
 </html>
