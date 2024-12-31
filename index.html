@@ -53,6 +53,18 @@
             max-width: 30%; /* 画像の幅を調整（必要に応じて変更） */
             height: auto; /* 高さは自動調整 */
         }
+
+        /* QRコードのスタイル */
+        .qr-code {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .qr-code img {
+            max-width: 150px; /* QRコードの最大幅 */
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -64,6 +76,12 @@
     <div class="content">
         <p class="arrow-text">↓ GugliemarInstaller</p>
         <a href="GugliemarAppInstaller.zip" class="rounded-text">GugliemarInstallerをダウンロード</a>
+    </div>
+
+    <!-- QRコードの追加 -->
+    <div class="qr-code">
+        <p>AndroidアプリのインストールはこのQRコードから</p>
+        <img src="C:\Users\user\Pictures\Screenshots\スクリーンショット 2024-12-31 141414.png" alt="QR Code for Android App" />
     </div>
 </body>
 </html>
